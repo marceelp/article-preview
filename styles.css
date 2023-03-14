@@ -33,8 +33,8 @@ ion-icon {
 
 html {
   font-family: "Manrope", sans-serif;
-  font-weight: 500;
   font-size: 62.5%;
+  font-weight: 500;
 }
 
 body {
@@ -65,10 +65,6 @@ body {
   object-fit: cover;
   object-position: left;
   transition: all 0.5s ease;
-}
-
-.article-card:hover .article-banner {
-  transform: scale(1.1);
 }
 
 .article-content {
@@ -185,12 +181,6 @@ body {
 
 .share-option ion-icon {
   font-size: 2.2rem;
-}
-
-.share-option ion-icon:hover,
-.article-title:hover,
-.author-name:hover {
-  filter: invert(1);
 }
 
 @media screen and (max-width: 768px) {
